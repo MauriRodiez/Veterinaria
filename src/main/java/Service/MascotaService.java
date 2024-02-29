@@ -8,13 +8,7 @@ public class MascotaService {
 
     private IDao<Mascota> mascotaDao;
 
-    public MascotaService(){
-
-    }
-
-    public MascotaService(IDao<Mascota> mascotaDao) {
-        this.mascotaDao = mascotaDao;
-    }
+    public MascotaService(){}
 
     public void setMascotaDao(IDao<Mascota> mascotaDao) {
         this.mascotaDao = mascotaDao;

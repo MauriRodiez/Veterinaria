@@ -1,0 +1,509 @@
+[2024-02-2909:32:50] [ ERROR] [dbManager:40] No se encuentra el driver para la conexion de la BD
+java.lang.ClassNotFoundException: org.h2.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:421)
+	at java.base/java.lang.Class.forName(Class.java:412)
+	at DB.dbManager.<clinit>(dbManager.java:23)
+	at DAO.impl.MascotaDaoH2.<init>(MascotaDaoH2.java:19)
+	at Main.main(Main.java:12)
+[2024-02-2909:33:44] [ ERROR] [dbManager:40] No se encuentra el driver para la conexion de la BD
+java.lang.ClassNotFoundException: org.h2.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:421)
+	at java.base/java.lang.Class.forName(Class.java:412)
+	at DB.dbManager.<clinit>(dbManager.java:23)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:24)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:15)
+[2024-02-2909:40:00] [ ERROR] [dbManager:40] No se encuentra el driver para la conexion de la BD
+java.lang.ClassNotFoundException: org.h2.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:421)
+	at java.base/java.lang.Class.forName(Class.java:412)
+	at DB.dbManager.<clinit>(dbManager.java:23)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:24)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:15)
+[2024-02-2909:40:21] [ ERROR] [dbManager:40] No se encuentra el driver para la conexion de la BD
+java.lang.ClassNotFoundException: org.h2.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:421)
+	at java.base/java.lang.Class.forName(Class.java:412)
+	at DB.dbManager.<clinit>(dbManager.java:23)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:24)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:15)
+[2024-02-2910:02:01] [ ERROR] [dbManager:40] No se encuentra el driver para la conexion de la BD
+java.lang.ClassNotFoundException: org.h2.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:421)
+	at java.base/java.lang.Class.forName(Class.java:412)
+	at DB.dbManager.<clinit>(dbManager.java:23)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:24)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:15)
+[2024-02-2910:02:17] [ ERROR] [dbManager:40] No se encuentra el driver para la conexion de la BD
+java.lang.ClassNotFoundException: org.h2.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:421)
+	at java.base/java.lang.Class.forName(Class.java:412)
+	at DB.dbManager.<clinit>(dbManager.java:23)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:24)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:15)
+[2024-02-2910:03:00] [ ERROR] [dbManager:41] No se encuentra el driver para la conexion de la BD
+java.lang.ClassNotFoundException: org.h2.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:421)
+	at java.base/java.lang.Class.forName(Class.java:412)
+	at DB.dbManager.<clinit>(dbManager.java:24)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:24)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:15)
+[2024-02-2910:06:56] [ ERROR] [dbManager:34] No se encuentra el driver para la conexion de la BD
+java.lang.ClassNotFoundException: org.h2.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:421)
+	at java.base/java.lang.Class.forName(Class.java:412)
+	at DB.dbManager.<clinit>(dbManager.java:23)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:24)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:15)
+[2024-02-2910:08:54] [ ERROR] [dbManager:31] No se encuentra el driver para la conexión de la BD
+java.lang.ClassNotFoundException: org.h2.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:421)
+	at java.base/java.lang.Class.forName(Class.java:412)
+	at DB.dbManager.<clinit>(dbManager.java:21)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:24)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:15)
+[2024-02-2910:09:17] [ ERROR] [dbManager:30] No se encuentra el driver para la conexión de la BD
+java.lang.ClassNotFoundException: org.h2.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:421)
+	at java.base/java.lang.Class.forName(Class.java:412)
+	at DB.dbManager.<clinit>(dbManager.java:20)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:24)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:15)
+[2024-02-2910:16:53] [ ERROR] [dbManager:30] No se encuentra el driver para la conexión de la BD
+java.lang.ClassNotFoundException: org.h2.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:421)
+	at java.base/java.lang.Class.forName(Class.java:412)
+	at DB.dbManager.<clinit>(dbManager.java:20)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:26)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:15)
+[2024-02-2910:18:59] [ ERROR] [dbManager:30] No se encuentra el driver para la conexión de la BD
+java.lang.ClassNotFoundException: org.h2.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:421)
+	at java.base/java.lang.Class.forName(Class.java:412)
+	at DB.dbManager.<clinit>(dbManager.java:20)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:26)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:15)
+[2024-02-2910:24:17] [ ERROR] [dbManager:31] No se encuentra el driver para la conexión de la BD
+java.lang.ClassNotFoundException: org.h2.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:421)
+	at java.base/java.lang.Class.forName(Class.java:412)
+	at DB.dbManager.<clinit>(dbManager.java:20)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:26)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:15)
+[2024-02-2910:27:25] [ ERROR] [dbManager:32] No se encuentra el driver para la conexión de la BD
+java.lang.ClassNotFoundException: org.h2.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:421)
+	at java.base/java.lang.Class.forName(Class.java:412)
+	at DB.dbManager.<clinit>(dbManager.java:21)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:26)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:15)
+[2024-02-2910:32:13] [ INFO ] [dbManager:22] Se encontró el driver para la BD - la librería está referenciada
+[2024-02-2910:32:14] [ INFO ] [dbManager:26] Conexión creada con éxito
+[2024-02-2910:32:14] [ ERROR] [MascotaDaoH2:34] Ocurrio un erro y no se pudo insertar datos en la BD
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MASCOTAS" not found (this database is empty); SQL statement:
+INSERT INTO MASCOTAS (NOMBRE, RAZA) VALUES (?,?) [42104-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:8385)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:8369)
+	at org.h2.command.Parser.readTableOrView(Parser.java:8358)
+	at org.h2.command.Parser.readTableOrView(Parser.java:8328)
+	at org.h2.command.Parser.parseInsert(Parser.java:1632)
+	at org.h2.command.Parser.parsePrepared(Parser.java:814)
+	at org.h2.command.Parser.parse(Parser.java:689)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:569)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:92)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1044)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:27)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:15)
+[2024-02-2910:36:15] [ INFO ] [dbManager:22] Se encontró el driver para la BD - la librería está referenciada
+[2024-02-2910:36:16] [ INFO ] [dbManager:26] Conexión creada con éxito
+[2024-02-2910:36:16] [ ERROR] [MascotaDaoH2:34] Ocurrio un erro y no se pudo insertar datos en la BD
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MASCOTAS" not found (this database is empty); SQL statement:
+INSERT INTO MASCOTAS (NOMBRE, RAZA) VALUES (?,?) [42104-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:8385)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:8369)
+	at org.h2.command.Parser.readTableOrView(Parser.java:8358)
+	at org.h2.command.Parser.readTableOrView(Parser.java:8328)
+	at org.h2.command.Parser.parseInsert(Parser.java:1632)
+	at org.h2.command.Parser.parsePrepared(Parser.java:814)
+	at org.h2.command.Parser.parse(Parser.java:689)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:569)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:92)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1044)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:27)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:15)
+[2024-02-2910:37:35] [ INFO ] [dbManager:21] Se encontró el driver para la BD - la librería está referenciada
+[2024-02-2910:37:36] [ INFO ] [dbManager:25] Conexión creada con éxito
+[2024-02-2910:37:36] [ ERROR] [MascotaDaoH2:34] Ocurrio un error y no se pudo insertar datos en la BD
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MASCOTAS" not found (this database is empty); SQL statement:
+INSERT INTO MASCOTAS (NOMBRE, RAZA) VALUES (?,?) [42104-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:8385)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:8369)
+	at org.h2.command.Parser.readTableOrView(Parser.java:8358)
+	at org.h2.command.Parser.readTableOrView(Parser.java:8328)
+	at org.h2.command.Parser.parseInsert(Parser.java:1632)
+	at org.h2.command.Parser.parsePrepared(Parser.java:814)
+	at org.h2.command.Parser.parse(Parser.java:689)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:569)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:92)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1044)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:27)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:15)
+[2024-02-2911:19:20] [ INFO ] [dbManager:21] Se encontró el driver para la BD - la librería está referenciada
+[2024-02-2911:19:20] [ INFO ] [dbManager:25] Conexión creada con éxito
+[2024-02-2911:19:20] [ ERROR] [MascotaDaoH2:34] Ocurrio un error y no se pudo insertar datos en la BD
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MASCOTAS" not found (this database is empty); SQL statement:
+INSERT INTO MASCOTAS (NOMBRE, RAZA) VALUES (?,?) [42104-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:8385)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:8369)
+	at org.h2.command.Parser.readTableOrView(Parser.java:8358)
+	at org.h2.command.Parser.readTableOrView(Parser.java:8328)
+	at org.h2.command.Parser.parseInsert(Parser.java:1632)
+	at org.h2.command.Parser.parsePrepared(Parser.java:814)
+	at org.h2.command.Parser.parse(Parser.java:689)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:569)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:92)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1044)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:27)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:15)
+[2024-02-2911:38:24] [ INFO ] [dbManager:21] Se encontró el driver para la BD - la librería está referenciada
+[2024-02-2911:38:25] [ ERROR] [dbManager:27] Error al intentar conectar a la base de datos
+org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Nombre de usuario ó password incorrecto
+Wrong user name or password [28000-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:510)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.validateUserAndPassword(Engine.java:393)
+	at org.h2.engine.Engine.createSession(Engine.java:206)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at DB.dbManager.<clinit>(dbManager.java:24)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:26)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:15)
+[2024-02-2911:39:37] [ INFO ] [dbManager:21] Se encontró el driver para la BD - la librería está referenciada
+[2024-02-2911:39:38] [ INFO ] [dbManager:25] Conexión creada con éxito
+[2024-02-2911:39:38] [ INFO ] [MascotaDaoH2:32] Se ha ingresado una mascota
+[2024-02-2911:41:25] [ INFO ] [dbManager:21] Se encontró el driver para la BD - la librería está referenciada
+[2024-02-2911:41:25] [ INFO ] [dbManager:25] Conexión creada con éxito
+[2024-02-2911:41:25] [ INFO ] [MascotaDaoH2:32] Se ha ingresado una mascota
+[2024-02-2911:41:25] [ ERROR] [MascotaDaoH2:34] Ocurrio un error y no se pudo insertar datos en la BD
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:554)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1372)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1041)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:27)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:19)
+[2024-02-2911:41:25] [ ERROR] [MascotaDaoH2:34] Ocurrio un error y no se pudo insertar datos en la BD
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:554)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1372)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1041)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:27)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:20)
+[2024-02-2911:41:25] [ ERROR] [MascotaDaoH2:34] Ocurrio un error y no se pudo insertar datos en la BD
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:554)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1372)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1041)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:27)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:21)
+[2024-02-2911:41:44] [ INFO ] [dbManager:21] Se encontró el driver para la BD - la librería está referenciada
+[2024-02-2911:41:45] [ INFO ] [dbManager:25] Conexión creada con éxito
+[2024-02-2911:41:45] [ INFO ] [MascotaDaoH2:32] Se ha ingresado una mascota
+[2024-02-2911:41:45] [ ERROR] [MascotaDaoH2:34] Ocurrio un error y no se pudo insertar datos en la BD
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:554)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1372)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1041)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:27)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:20)
+[2024-02-2911:41:45] [ ERROR] [MascotaDaoH2:34] Ocurrio un error y no se pudo insertar datos en la BD
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:554)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1372)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1041)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:27)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:21)
+[2024-02-2911:42:56] [ INFO ] [dbManager:21] Se encontró el driver para la BD - la librería está referenciada
+[2024-02-2911:42:57] [ INFO ] [dbManager:25] Conexión creada con éxito
+[2024-02-2911:42:57] [ INFO ] [MascotaDaoH2:32] Se ha ingresado una mascota
+[2024-02-2911:42:57] [ ERROR] [MascotaDaoH2:34] Ocurrio un error y no se pudo insertar datos en la BD
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:554)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1372)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1041)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:27)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:20)
+[2024-02-2911:42:57] [ ERROR] [MascotaDaoH2:34] Ocurrio un error y no se pudo insertar datos en la BD
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:554)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1372)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1041)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:27)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:21)
+[2024-02-2911:43:28] [ INFO ] [dbManager:21] Se encontró el driver para la BD - la librería está referenciada
+[2024-02-2911:43:28] [ INFO ] [dbManager:25] Conexión creada con éxito
+[2024-02-2911:43:28] [ INFO ] [MascotaDaoH2:32] Se ha ingresado una mascota
+[2024-02-2911:43:43] [ INFO ] [dbManager:21] Se encontró el driver para la BD - la librería está referenciada
+[2024-02-2911:43:43] [ INFO ] [dbManager:25] Conexión creada con éxito
+[2024-02-2911:43:43] [ INFO ] [MascotaDaoH2:32] Se ha ingresado una mascota
+[2024-02-2911:43:51] [ INFO ] [dbManager:21] Se encontró el driver para la BD - la librería está referenciada
+[2024-02-2911:43:51] [ INFO ] [dbManager:25] Conexión creada con éxito
+[2024-02-2911:43:51] [ INFO ] [MascotaDaoH2:32] Se ha ingresado una mascota
+[2024-02-2911:46:40] [ INFO ] [dbManager:21] Se encontró el driver para la BD - la librería está referenciada
+[2024-02-2911:46:40] [ INFO ] [dbManager:25] Conexión creada con éxito
+[2024-02-2911:46:40] [ INFO ] [MascotaDaoH2:32] Se ha ingresado una mascota
+[2024-02-2911:46:40] [ ERROR] [MascotaDaoH2:34] Ocurrio un error y no se pudo insertar datos en la BD
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:554)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1372)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1041)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:27)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:19)
+[2024-02-2911:46:40] [ ERROR] [MascotaDaoH2:34] Ocurrio un error y no se pudo insertar datos en la BD
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:554)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1372)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1041)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:27)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:20)
+[2024-02-2911:46:40] [ ERROR] [MascotaDaoH2:34] Ocurrio un error y no se pudo insertar datos en la BD
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:554)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1372)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1041)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:27)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:21)
+[2024-02-2911:48:11] [ INFO ] [dbManager:21] Se encontró el driver para la BD - la librería está referenciada
+[2024-02-2911:48:11] [ ERROR] [dbManager:27] Error al intentar conectar a la base de datos
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/Users/Mauricio/Documents/CV/BD/JAVA/db_Veterinaria.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Mauricio/Documents/CV/BD/JAVA/db_Veterinaria.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:168)
+	at org.h2.mvstore.db.Store.<init>(Store.java:145)
+	at org.h2.engine.Database.<init>(Database.java:324)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at DB.dbManager.<clinit>(dbManager.java:24)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:26)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:13)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:19)
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/Mauricio/Documents/CV/BD/JAVA/db_Veterinaria.mv.db [2.1.214/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:1004)
+	at org.h2.mvstore.FileStore.open(FileStore.java:178)
+	at org.h2.mvstore.FileStore.open(FileStore.java:128)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:452)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4082)
+	at org.h2.mvstore.db.Store.<init>(Store.java:136)
+	... 14 more
+[2024-02-2911:48:33] [ INFO ] [dbManager:21] Se encontró el driver para la BD - la librería está referenciada
+[2024-02-2911:48:34] [ INFO ] [dbManager:25] Conexión creada con éxito
+[2024-02-2911:48:34] [ INFO ] [MascotaDaoH2:32] Se ha ingresado una mascota
+[2024-02-2911:48:34] [ INFO ] [MascotaDaoH2:32] Se ha ingresado una mascota
+[2024-02-2911:48:34] [ INFO ] [MascotaDaoH2:32] Se ha ingresado una mascota
