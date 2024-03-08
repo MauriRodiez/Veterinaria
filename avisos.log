@@ -507,3 +507,99 @@ Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/Maurici
 [2024-02-2911:48:34] [ INFO ] [MascotaDaoH2:32] Se ha ingresado una mascota
 [2024-02-2911:48:34] [ INFO ] [MascotaDaoH2:32] Se ha ingresado una mascota
 [2024-02-2911:48:34] [ INFO ] [MascotaDaoH2:32] Se ha ingresado una mascota
+[2024-03-0715:32:41] [ INFO ] [dbMySQL:21] Se encontró el driver para la BD - la librería está referenciada
+[2024-03-0715:43:02] [ INFO ] [dbMySQL:21] Se encontró el driver para la BD - la librería está referenciada
+[2024-03-0715:43:04] [ INFO ] [dbMySQL:21] Se encontró el driver para la BD - la librería está referenciada
+[2024-03-0715:44:47] [ INFO ] [dbMySQL:21] Se encontró el driver para la BD - la librería está referenciada
+[2024-03-0715:44:48] [ INFO ] [dbMySQL:25] Conexión creada con éxito
+[2024-03-0715:44:48] [ INFO ] [MascotaDaoH2:34] Se ha ingresado una mascota
+[2024-03-0715:44:48] [ ERROR] [MascotaDaoH2:36] Ocurrio un error y no se pudo insertar datos en la BD
+java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:111)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:74)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1621)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1535)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1540)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:29)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:14)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:19)
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:753)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:565)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1550)
+	... 6 more
+[2024-03-0715:44:48] [ ERROR] [MascotaDaoH2:36] Ocurrio un error y no se pudo insertar datos en la BD
+java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:111)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:74)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1621)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1535)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1540)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:29)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:14)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:20)
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:753)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:565)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1550)
+	... 6 more
+[2024-03-0715:44:48] [ ERROR] [MascotaDaoH2:36] Ocurrio un error y no se pudo insertar datos en la BD
+java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:111)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:74)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1621)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1535)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1540)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:29)
+	at DAO.impl.MascotaDaoH2.insert(MascotaDaoH2.java:14)
+	at Service.MascotaService.insertMascota(MascotaService.java:18)
+	at Main.main(Main.java:21)
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:753)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:565)
+	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1550)
+	... 6 more
+[2024-03-0715:48:42] [ INFO ] [dbMySQL:21] Se encontró el driver para la BD - la librería está referenciada
+[2024-03-0715:48:42] [ INFO ] [dbMySQL:25] Conexión creada con éxito
+[2024-03-0715:48:42] [ INFO ] [MascotaDaoH2:34] Se ha ingresado una mascota
+[2024-03-0715:48:58] [ INFO ] [dbMySQL:21] Se encontró el driver para la BD - la librería está referenciada
+[2024-03-0715:48:59] [ INFO ] [dbMySQL:25] Conexión creada con éxito
+[2024-03-0715:48:59] [ INFO ] [MascotaDaoH2:34] Se ha ingresado una mascota
+[2024-03-0715:49:07] [ INFO ] [dbMySQL:21] Se encontró el driver para la BD - la librería está referenciada
+[2024-03-0715:49:08] [ INFO ] [dbMySQL:25] Conexión creada con éxito
+[2024-03-0715:49:08] [ INFO ] [MascotaDaoH2:34] Se ha ingresado una mascota
+[2024-03-0715:49:09] [ INFO ] [dbMySQL:21] Se encontró el driver para la BD - la librería está referenciada
+[2024-03-0715:49:10] [ INFO ] [dbMySQL:25] Conexión creada con éxito
+[2024-03-0715:49:10] [ INFO ] [MascotaDaoH2:34] Se ha ingresado una mascota

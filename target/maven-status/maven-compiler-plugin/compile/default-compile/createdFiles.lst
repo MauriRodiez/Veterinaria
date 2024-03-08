@@ -1,0 +1,7 @@
+Main.class
+Model\Mascota.class
+DB\dbMySQL.class
+DAO\IDao.class
+DB\dbManager.class
+DAO\impl\MascotaDaoH2.class
+Service\MascotaService.class

@@ -15,10 +15,10 @@ public class Main {
         mascotaService.setMascotaDao(new MascotaDaoH2());
 
 
-       /*mascotaService.insertMascota(mascota1);
-       mascotaService.insertMascota(mascota2);
-       mascotaService.insertMascota(mascota3);
-       mascotaService.insertMascota(mascota4);*/
+       //mascotaService.insertMascota(mascota1);
+       //mascotaService.insertMascota(mascota2);
+       //mascotaService.insertMascota(mascota3);
+       mascotaService.insertMascota(mascota4);
 
 
     }

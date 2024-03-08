@@ -2,6 +2,7 @@ package DAO.impl;
 
 import DAO.IDao;
 import DB.dbManager;
+import DB.dbMySQL;
 import Model.Mascota;
 import org.apache.log4j.Logger;
 
@@ -23,7 +24,8 @@ public class MascotaDaoH2 implements IDao<Mascota> {
 
         try {
 
-            connection = dbManager.getDatabaseConnection();
+            //connection = dbManager.getDatabaseConnection();
+            connection = dbMySQL.getDbMySQL();
             PreparedStatement psInsert = connection.prepareStatement(SQL_INSERT_MASCOTA, Statement.RETURN_GENERATED_KEYS);
             psInsert.setString(1,mascota.getNombre());
             psInsert.setString(2, mascota.getRaza());
@@ -33,13 +35,14 @@ public class MascotaDaoH2 implements IDao<Mascota> {
         } catch (SQLException e) {
             LOGGER.error("Ocurrio un error y no se pudo insertar datos en la BD", e);
         } finally {
-            if (connection == null) {
+
                 try {
-                    connection.close();
+                    if (connection != null) {
+                        connection.close();
+                    }
                 } catch (SQLException e) {
                     LOGGER.error("Error al cerrar la conexión", e);
                 }
-            }
         }
 
         return mascota;
